@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CrudAndroidFirebase</string>
+    <string name="nombre">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="edad">Edad</string>
+    <string name="guardar">Guardar</string>
+    <string name="datoNoNumeric">El valor no es numerico</string>
+    <string name="cancelError">Error al cargar datos</string>
+    <string name="encabezado">Lista de Usuarios</string>
+</resources>
