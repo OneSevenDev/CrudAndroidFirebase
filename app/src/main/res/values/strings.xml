@@ -7,4 +7,5 @@
     <string name="datoNoNumeric">El valor no es numerico</string>
     <string name="cancelError">Error al cargar datos</string>
     <string name="encabezado">Lista de Usuarios</string>
+    <string name="next">Siguiente</string>
 </resources>

@@ -20,7 +20,10 @@
     <EditText
         android:id="@+id/nombreEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/input_background"
+        android:padding="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,7 +33,10 @@
     <EditText
         android:id="@+id/apellidosEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/input_background"
+        android:padding="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,13 +46,25 @@
     <EditText
         android:id="@+id/edadEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/input_background"
+        android:padding="10dp"/>
 
     <Button
         android:id="@+id/guardarButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/input_background"
         android:text="@string/guardar"/>
 
+    <Button
+        android:id="@+id/next"
+        android:text="@string/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <include layout="@layout/list_item_main"/>
+
 </LinearLayout>
